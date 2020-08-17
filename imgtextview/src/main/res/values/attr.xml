@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_imgSize">56dp</dimen>
+    <dimen name="default_txtSize">16sp</dimen>
+
+    <declare-styleable name="ImgTextView">
+        <attr name="imgSize" format="dimension"/>
+        <attr name="imgSrc" format="reference"/>
+        <attr name="mainColor" format="color"/>
+        <attr name="spacing" format="dimension"/>
+        <attr name="txtString" format="string"/>
+        <attr name="txtSize" format="dimension"/>
+    </declare-styleable>
+</resources>

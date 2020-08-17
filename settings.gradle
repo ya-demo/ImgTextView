@@ -1,0 +1,3 @@
+include ':imgtextview'
+include ':app'
+rootProject.name = "ImgTextView"

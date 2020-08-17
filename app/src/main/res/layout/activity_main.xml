@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/test">
+
+
+
+<!--    <LinearLayout-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0.0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:gravity="center">-->
+<!--        <ImageView-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:src="@drawable/outline_credit_card_black_48"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="我的卡片"-->
+<!--            android:textSize="24dp"-->
+<!--            android:textColor="@android:color/black" />-->
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0.0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:gravity="center">-->
+<!--        <ImageView-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:src="@drawable/outline_history_black_48"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:text="歷史紀錄"-->
+<!--            android:textSize="24dp"-->
+<!--            android:textColor="@android:color/black" />-->
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0.0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:gravity="center">-->
+<!--        <ImageView-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:src="@drawable/outline_settings_black_48"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:text="系統設定"-->
+<!--            android:textSize="24dp"-->
+<!--            android:textColor="@android:color/black" />-->
+<!--    </LinearLayout>-->
+
+
+
+    <com.yacodings.imgtextview.ImgTextView
+        android:layout_width="match_parent"
+        android:layout_height="0.0dp"
+        android:layout_weight="1"
+        app:imgSize="100dp"
+        app:imgSrc="@drawable/outline_credit_card_black_48"
+        app:spacing="4dp"
+        app:mainColor="@android:color/black"
+        app:txtString="我的卡片"
+        app:txtSize="24dp"/>
+    <com.yacodings.imgtextview.ImgTextView
+        android:layout_width="match_parent"
+        android:layout_height="0.0dp"
+        android:layout_weight="1"
+        app:imgSize="100dp"
+        app:imgSrc="@drawable/outline_history_black_48"
+        app:spacing="4dp"
+        app:mainColor="@android:color/black"
+        app:txtString="歷史紀錄"
+        app:txtSize="24dp"/>
+    <com.yacodings.imgtextview.ImgTextView
+        android:layout_width="match_parent"
+        android:layout_height="0.0dp"
+        android:layout_weight="1"
+        app:imgSize="100dp"
+        app:imgSrc="@drawable/outline_settings_black_48"
+        app:spacing="4dp"
+        app:mainColor="@android:color/black"
+        app:txtString="系統設定"
+        app:txtSize="24dp"/>
+
+</LinearLayout>
